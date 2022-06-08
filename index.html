@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Viga&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Portfolio | Home</title>
+</head>
+<body class="bg-white pb-24 md:pb-0 font-inter">
+  
+  <!-- Navbar -->
+  <nav class="bg-black text-white py-2">
+    <div class="container py-1 px-8 md:flex md:justify-between">
+      <a href="" class="font-viga text-2xl block text-center">&lt;Akmal /&gt;</a>
+      <div class="hidden md:flex">
+        <a href="#home" class="px-2 py-1 lg:mx-5 md:mx-2 hover:opacity-70 transition active">Home</a>
+        <a href="#about" class="px-2 py-1 lg:mx-5 md:mx-2 hover:opacity-70 transition">About</a>
+        <a href="#skills" class="px-2 py-1 lg:mx-5 md:mx-2 hover:opacity-70 transition">Skills</a>
+        <a href="#projects" class="px-2 py-1 lg:mx-5 md:mx-2 hover:opacity-70 transition">Projects</a>
+        <a href="#contact" class="px-2 py-1 lg:mx-5 md:mx-2 hover:opacity-70 transition">Contact</a>
+      </div>
+      <div class="fixed bottom-0 left-0 right-0 bg-black md:hidden">
+        <div class="text-2xl py-2 flex justify-around">
+          <a href="#home" class="p-1 hover:opacity-70 active"><i class="bi bi-house-fill"></i></a>
+          <a href="#about" class="p-1 hover:opacity-70"><i class="bi bi-person-circle"></i></a>
+          <a href="#skills" class="p-1 hover:opacity-70"><i class="bi bi-tools"></i></a>
+          <a href="#projects" class="p-1 hover:opacity-70"><i class="bi bi-gear-fill"></i></a>
+          <a href="#contact" class="p-1 hover:opacity-70"><i class="bi bi-card-checklist"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container px-8" id="content">
+    <div class="pt-32 md:pt-36 xl:pt-40 flex">
+      <div class="w-full font-viga text-black">
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-widest">Hi,</h1>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-widest my-2">I'm Akmal,</h1>
+        <h1 class="text-3xl sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-widest">Web Developer.</h1>
+        <h2 class="font-inter text-xl sm:text-2xl lg:text-3xl sm:mt-2 mb-4">Back End Developer</h2>
+        <a href="#about" class="px-2 py-1 bg-white text-lg ring-2 ring-black rounded-lg hover:bg-black hover:text-white transition about-me">About Me</a>
+      </div>
+      <div class="w-full xl:w-3/4 hidden md:block md:-mt-16 lg:-mt-28 xl:-mt-32">
+        <img src="img/code-typing-bro.svg" alt="Hero Image">
+      </div>
+    </div>
+  </div>
+
+  <!-- Flash Screen -->
+  <div class="bg-black absolute top-0 right-0 bottom-0 left-0 -translate-y-full transition duration-1000 flex" id="flash">
+    <span class="m-auto font-viga text-black text-3xl text-stroke tracking-wider">Please wait...</span>
+  </div>
+ 
+  <!-- Welcome Screen -->
+  <div class="bg-black absolute top-0 bottom-0 right-0 left-0 flex animate-fadeOut" id="welcome">
+    <svg width="80%" height="101" viewBox="0 0 605 101" fill="none" xmlns="http://www.w3.org/2000/svg" class="m-auto welcome animate-fill">
+      <path d="M117.768 4.86401L93.32 96H78.472L61.704 40.704L44.936 96H30.088L5.76801 4.86401H24.328L38.408 62.336L52.36 14.848C53.896 7.76535 57.1387 4.22401 62.088 4.22401C64.5627 4.22401 66.44 5.16268 67.72 7.04001C69 8.83201 70.152 11.4347 71.176 14.848L85 62.336L99.208 4.86401H117.768Z" stroke="#F9F9F9" stroke-width="4" mask="url(#path-1-outside-1_2_2)"/>
+      <path d="M189.156 96H156.9C146.66 96 139.449 94.2507 135.268 90.752C131.172 87.168 129.124 80.896 129.124 71.936V4.86401H189.156V20.736H146.916V42.112H176.484L175.204 57.984H146.916V70.656C146.916 74.24 147.727 76.7147 149.348 78.08C150.969 79.4454 153.913 80.128 158.18 80.128H189.156V96Z" stroke="#F9F9F9" stroke-width="4" mask="url(#path-1-outside-1_2_2)"/>
+      <path d="M262.816 96H235.68C225.44 96 218.016 94.0373 213.408 90.112C208.885 86.1013 206.624 79.616 206.624 70.656V4.86401H224.416V70.656C224.416 74.24 225.227 76.7147 226.848 78.08C228.469 79.4454 231.413 80.128 235.68 80.128H262.816V96Z" stroke="#F9F9F9" stroke-width="4" mask="url(#path-1-outside-1_2_2)"/>
+      <path d="M323.079 60.672H339.591C339.591 72.2773 336.69 81.1947 330.887 87.424C325.084 93.6533 316.892 96.768 306.311 96.768C283.015 96.768 271.367 83.072 271.367 55.68V48C271.367 26.4107 277.34 12.8853 289.287 7.42401C293.98 5.20534 299.655 4.09601 306.311 4.09601C316.039 4.09601 323.932 6.78401 329.991 12.16C336.135 17.4507 339.207 25.1307 339.207 35.2H322.567C321.628 30.1653 319.964 26.368 317.575 23.808C315.186 21.248 311.431 19.968 306.311 19.968C300.338 19.968 295.9 21.8453 292.999 25.6C290.951 28.2453 289.756 32.768 289.415 39.168C289.244 41.216 289.159 43.9893 289.159 47.488V55.424C289.159 65.2373 290.524 71.936 293.255 75.52C296.071 79.104 300.423 80.896 306.311 80.896C312.284 80.896 316.38 79.2747 318.599 76.032C320.903 72.704 322.396 67.584 323.079 60.672Z" stroke="#F9F9F9" stroke-width="4" mask="url(#path-1-outside-1_2_2)"/>
+      <path d="M421.565 46.208V53.12C421.565 68.3947 418.664 79.488 412.861 86.4C407.144 93.312 397.928 96.768 385.213 96.768C372.498 96.768 363.282 93.312 357.565 86.4C351.933 79.488 349.117 68.2667 349.117 52.736V46.08C349.117 31.9147 351.976 21.376 357.693 14.464C363.496 7.55201 372.626 4.09601 385.085 4.09601C397.629 4.09601 406.845 7.59468 412.733 14.592C418.621 21.5893 421.565 32.128 421.565 46.208ZM403.773 52.736V48C403.773 39.808 402.749 33.28 400.701 28.416C398.312 22.784 393.192 19.968 385.341 19.968C377.405 19.968 372.242 22.784 369.853 28.416C367.89 33.024 366.909 39.552 366.909 48V52.736C366.909 63.744 368.445 71.168 371.517 75.008C372.712 76.6293 374.461 78.0373 376.765 79.232C379.154 80.3413 381.97 80.896 385.213 80.896C388.541 80.896 391.357 80.3413 393.661 79.232C395.965 78.1227 397.757 76.7573 399.037 75.136C400.317 73.5147 401.298 71.3813 401.981 68.736C403.176 64.5547 403.773 59.2213 403.773 52.736Z" stroke="#F9F9F9" stroke-width="4" mask="url(#path-1-outside-1_2_2)"/>
+      <path d="M504.452 41.6L488.068 76.16C485.679 80.768 482.692 83.072 479.108 83.072C475.609 83.072 472.665 80.64 470.276 75.776L453.636 41.6V96H435.844V4.86401H453.38L479.108 57.472L504.708 4.86401H522.244V96H504.452V41.6Z" stroke="#F9F9F9" stroke-width="4" mask="url(#path-1-outside-1_2_2)"/>
+      <path d="M600.906 96H568.65C558.41 96 551.199 94.2507 547.018 90.752C542.922 87.168 540.874 80.896 540.874 71.936V4.86401H600.906V20.736H558.666V42.112H588.234L586.954 57.984H558.666V70.656C558.666 74.24 559.477 76.7147 561.098 78.08C562.719 79.4454 565.663 80.128 569.93 80.128H600.906V96Z" stroke="#F9F9F9" stroke-width="4" mask="url(#path-1-outside-1_2_2)"/>
+      </svg>
+  </div>
+    
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>

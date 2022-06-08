@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  @apply ring-1 ring-white rounded-lg;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 0.5px #f9f9f9; 
+}
+
+.text-float {
+  @apply inline-block hover:scale-110 hover:-rotate-12 transition cursor-pointer;
+}
+
+.welcome path:nth-child(1) {
+  stroke-dasharray: 619px;  
+  stroke-dashoffset: 619px;
+  animation: line-anim 2s ease forwards;
+}
+
+.welcome path:nth-child(2) {
+  stroke-dasharray: 432px;  
+  stroke-dashoffset: 432px;
+  animation: line-anim 2s ease forwards 0.3s;
+}
+
+.welcome path:nth-child(3) {
+  stroke-dasharray: 281px;  
+  stroke-dashoffset: 281px;
+  animation: line-anim 2s ease forwards 0.6s;
+}
+
+.welcome path:nth-child(4) {
+  stroke-dasharray: 409px;  
+  stroke-dashoffset: 409px;
+  animation: line-anim 2s ease forwards 0.9s;
+}
+
+.welcome path:nth-child(5) {
+  stroke-dasharray: 436px;  
+  stroke-dashoffset: 436px;
+  animation: line-anim 2s ease forwards 1.2s;
+}
+
+.welcome path:nth-child(6) {
+  stroke-dasharray: 579px;  
+  stroke-dashoffset: 579px;
+  animation: line-anim 2s ease forwards 1.5s;
+}
+
+.welcome path:nth-child(7) {
+  stroke-dasharray: 432px;  
+  stroke-dashoffset: 432px;
+  animation: line-anim 2s ease forwards 1.8s;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
