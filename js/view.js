@@ -48,7 +48,7 @@ const view = {
                 <span class="bg-black block py-2 text-white font-viga text-center text-xl">Back End</span>
                 <ul class="list-disc px-5 sm:px-10 text-xl text-black font-viga">
                   <li class="py-1 mt-2">PHP</li>
-                  <li class="py-1">CodeIgniter</li>
+                  <li class="py-1">Golang</li>
                   <li class="py-1">Laravel</li>
                   <li class="py-1">NodeJs</li>
                   <li class="py-1">MySQL</li>
@@ -64,6 +64,7 @@ const view = {
                 <p class="font-inter text-xl mt-5">HAMKA is a company profile website designed to introduce the campus organization HAMKA, showcasing information about its history, vision, mission, and organizational structure. In addition to serving as an information hub, the website features an online registration system for new members and provides an admin dashboard that allows the management of member data, departments, and organizational governance. This platform aims to streamline the recruitment process and internal management of the organization digitally, supporting HAMKA's operations more efficiently and in an organized manner.</p>
                 <p class="mt-10 text-xl"><span class="font-bold">Tools :</span> CodeIgniter, MySQL & Bootstrap</p>
                 <p class="mb-5 text-xl"><span class="font-bold">Design by :</span> Saugi & BootstrapMade</p>
+                <a href="https://github.com/maakmall/hamka" target="_blank" class="px-2 py-1 bg-black text-lg text-white ring-2 ring-black rounded-lg hover:bg-white hover:text-black transition">Source Code</a>
               </div>
               <div class="w-full hidden md:block md:mt-24">
                 <img src="img/projects/hamka.png" alt="Project Image" class="rounded-lg shadow-lg">
@@ -72,14 +73,41 @@ const view = {
             <div class="pt-16 pb-10 md:flex">
               <div class="w-full font-viga text-black md:pr-5">
                 <h3 class="text-2xl md:text-3xl mb-4">Skytrans</h3>
-                <img src="img/projects/skytrans.png" alt="Project 1" class="rounded-lg shadow-lg md:hidden">
+                <img src="img/projects/skytrans.png" alt="Project 2" class="rounded-lg shadow-lg md:hidden">
                 <p class="font-inter text-xl mt-5">SkyTrans is a web application designed to efficiently manage material shipment data. It allows users to track, record, and organize shipment details, including material information, shipment status, and final destination. With integrated features, SkyTrans helps companies or organizations ensure that the shipping process runs smoothly, is well-organized, and properly documented, minimizing errors and enhancing efficiency in logistics management.</p>
                 <p class="mt-10 text-xl"><span class="font-bold">Tools :</span> Laravel, MySQL & Bootstrap</p>
                 <p class="mb-5 text-xl"><span class="font-bold">Design by :</span> Albion & Me</p>
-                <a href="https://github.com/maakmall/skytrans" class="px-2 py-1 bg-black text-lg text-white ring-2 ring-black rounded-lg hover:bg-white hover:text-black transition">Source Code</a>
+                <a href="https://github.com/maakmall/skytrans" target="_blank" class="px-2 py-1 bg-black text-lg text-white ring-2 ring-black rounded-lg hover:bg-white hover:text-black transition">Source Code</a>
               </div>
               <div class="w-full hidden md:block md:mt-6">
                 <img src="img/projects/skytrans.png" alt="Project Image" class="rounded-lg shadow-lg">
+              </div>
+            </div>
+            <div class="pt-16 pb-10 md:flex">
+              <div class="w-full font-viga text-black md:pr-5">
+                <h3 class="text-2xl md:text-3xl mb-4">IU Portal</h3>
+                <img src="img/projects/iu-portal.jpg" alt="Project 3" class="rounded-lg shadow-lg md:hidden">
+                <p class="font-inter text-xl mt-5">IU Portal is a clean, responsive landing site built for Sekolah Tinggi Teknologi Ilmu Komputer Insan Unggul. The site showcases study programs (Informatics Engineering, Information Systems, Accounting Computerization, etc.), campus life with student organizations, admission & fee information, and highlights partners & alumni testimonials. Designed to give prospective students a clear, friendly overview and invite them to “Join Now” for a bright future. The site also comes with a built-in CMS that allows the campus team to easily manage and update all content.</p>
+                <p class="mt-10 text-xl"><span class="font-bold">Tools :</span> NextJs, Laravel, MySQL & Tailwind</p>
+                <p class="mb-5 text-xl"><span class="font-bold">Design by :</span> Me</p>
+                <a href="https://iu-portal.vercel.app" target="_blank" class="px-2 py-1 bg-black text-lg text-white ring-2 ring-black rounded-lg hover:bg-white hover:text-black transition">Preview</a>
+              </div>
+              <div class="w-full hidden md:block md:mt-6">
+                <img src="img/projects/iu-portal.jpg" alt="Project Image" class="rounded-lg shadow-lg">
+              </div>
+            </div>
+            <div class="pt-16 pb-10 md:flex">
+              <div class="w-full font-viga text-black md:pr-5">
+                <h3 class="text-2xl md:text-3xl mb-4">Mocker</h3>
+                <img src="img/projects/mocker.png" alt="Project 4" class="rounded-lg shadow-lg md:hidden">
+                <p class="font-inter text-xl mt-5">Mocker is a lightweight mock API generator built on top of Faker.js. It allows you to define response schemas dynamically using query parameters and enables users to quickly create customizable fake data for testing or demo purposes, making backend prototyping easier and faster. Great for developers who need to spin up realistic API stubs or simulate data for front-end/back-end integration. Thanks Faker.js!</p>
+                <p class="mt-10 text-xl"><span class="font-bold">Tools :</span> ExpressJs & Bootstrap</p>
+                <p class="mb-5 text-xl"><span class="font-bold">Design by :</span> Me</p>
+                <a href="https://github.com/maakmall/mocker" target="_blank" class="px-2 py-1 bg-black text-lg text-white ring-2 ring-black rounded-lg hover:bg-white hover:text-black transition mr-5">Source Code</a>
+                <a href="https://mocker.applify.my.id" target="_blank" class="px-2 py-1 bg-black text-lg text-white ring-2 ring-black rounded-lg hover:bg-white hover:text-black transition">Preview</a>
+              </div>
+              <div class="w-full hidden md:block md:mt-6">
+                <img src="img/projects/mocker.png" alt="Project Image" class="rounded-lg shadow-lg">
               </div>
             </div>`,
   contact: `<div class="pt-16 md:pt-20 md:flex">
