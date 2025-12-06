@@ -124,7 +124,7 @@ const view = {
               <div class="w-full flex justify-evenly md:flex-col md:pl-10 lg:pl-20 xl:pl-32 md:border-l-4 md:border-black font-viga">
                 <a href="mailto:makmal316@gmail.com" class="text-2xl lg:text-3xl text-black hover:opacity-70 transition" target="_blank"><i class="bi bi-envelope"></i> <span class="hidden md:inline ml-3">makmal316@gmail.com</span></a>
                 <a href="https://www.instagram.com/maakmall" class="text-2xl lg:text-3xl text-black hover:opacity-70 transition" target="_blank"><i class="bi bi-instagram"></i> <span class="hidden md:inline ml-3">maakmall</span></a>
-                <a href="https://www.facebook.com/maakmall" class="text-2xl lg:text-3xl text-black hover:opacity-70 transition" target="_blank"><i class="bi bi-facebook"></i> <span class="hidden md:inline ml-3">maakmall</span></a>
+                <a href="https://www.linkedin.com/in/maakmall" class="text-2xl lg:text-3xl text-black hover:opacity-70 transition" target="_blank"><i class="bi bi-linkedin"></i> <span class="hidden md:inline ml-3">maakmall</span></a>
                 <a href="https://www.github.com/maakmall" class="text-2xl lg:text-3xl text-black hover:opacity-70 transition" target="_blank"><i class="bi bi-github"></i> <span class="hidden md:inline ml-3">maakmall</span></a>
               </div>
             </div>`,
