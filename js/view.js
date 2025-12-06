@@ -14,7 +14,7 @@ const view = {
   about: `<div class="pt-16 md:pt-20 lg:pt-32 xl:pt-40 flex">
             <div class="w-full font-viga text-xl md:text-lg lg:text-xl text-black md:pr-10 xl:pr-24">
               <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-5">About Me</h2>
-              <p class="font-inter">My Name is Muhammad Akmal, I'm a Back End Developer and currently studying Computer Science. I'm from Serang, Indonesia.</p>
+              <p class="font-inter">My Name is Muhammad Akmal, I'm a Back End Developer and a graduate of Informatics Engineering. I'm from Serang, Indonesia.</p>
 
               <p class="font-inter my-3">Well organised person, problem solver, independent with high intention to detail.</p>
               
@@ -29,7 +29,7 @@ const view = {
             <div class="w-full font-inter text-black md:pr-10 xl:pr-24">
               <h2 class="font-viga text-4xl sm:text-5xl lg:text-6xl font-bold mb-5">My Skills</h2>
               <p class="text-lg">The main area of my expertise is back end development (server side of the web).</p>
-              <p class="text-lg my-3">Build dynamic Web Application with PHP, Node.Js, MongoDB or MySQL.</p>
+              <p class="text-lg my-3">Build dynamic Web Application with PHP, Node.Js and MySQL.</p>
               <p class="text-lg">I also have full stack development experience with HTML, CSS, Bootstrap or TailwindCSS.</p>
               <p class="text-lg mt-3"><a href="#contact" class="font-bold underline hover:opacity-70 transition">Contact me</a> for more details.</p>
             </div>
@@ -40,15 +40,17 @@ const view = {
                   <li class="py-1 mt-2">HTML</li>
                   <li class="py-1">CSS</li>
                   <li class="py-1">Javascript</li>
-                  <li class="py-1 mb-2">TailwindCSS</li>
+                  <li class="py-1">Bootstrap</li>
+                  <li class="py-1 mb-2">Tailwind</li>
                 </ul>
               </div>
               <div class="ring-2 w-1/2 ring-black rounded-lg overflow-hidden">
                 <span class="bg-black block py-2 text-white font-viga text-center text-xl">Back End</span>
                 <ul class="list-disc px-5 sm:px-10 text-xl text-black font-viga">
                   <li class="py-1 mt-2">PHP</li>
+                  <li class="py-1">CodeIgniter</li>
+                  <li class="py-1">Laravel</li>
                   <li class="py-1">NodeJs</li>
-                  <li class="py-1">MongoDB</li>
                   <li class="py-1">MySQL</li>
                 </ul>
               </div>
@@ -57,30 +59,27 @@ const view = {
   projects: `<div class="pt-16 pb-10 md:flex">
               <div class="w-full font-viga text-black md:pr-5">
                 <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-5">My Projects</h2>
-                <h3 class="text-2xl md:text-3xl mb-4">Project Name</h3>
-                <img src="img/projects/project1.jpg" alt="Project 1" class="rounded-lg shadow-lg md:hidden">
-                <p class="font-inter text-xl mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus placeat sapiente consectetur accusantium magnam similique quod corrupti sit modi tempora omnis eaque molestias magni, atque saepe. Placeat sed explicabo fugiat numquam fugit nesciunt harum eveniet repellat nisi, quia aliquid dolore!</p>
-                <p class="mt-10 text-xl"><span class="font-bold">Tools :</span> HTML, CSS & Javascript</p>
-                <p class="mb-5 text-xl"><span class="font-bold">Design by :</span> Me</p>
-                <a href="#" class="px-2 py-1 mr-3 text-lg bg-white ring-2 ring-black rounded-lg hover:bg-black hover:text-white transition ">Visit</a>
-                <a href="#" class="px-2 py-1 bg-black text-lg text-white ring-2 ring-black rounded-lg hover:bg-white hover:text-black transition">Source Code</a>
+                <h3 class="text-2xl md:text-3xl mb-4">HAMKA</h3>
+                <img src="img/projects/hamka.png" alt="Project 1" class="rounded-lg shadow-lg md:hidden">
+                <p class="font-inter text-xl mt-5">HAMKA is a company profile website designed to introduce the campus organization HAMKA, showcasing information about its history, vision, mission, and organizational structure. In addition to serving as an information hub, the website features an online registration system for new members and provides an admin dashboard that allows the management of member data, departments, and organizational governance. This platform aims to streamline the recruitment process and internal management of the organization digitally, supporting HAMKA's operations more efficiently and in an organized manner.</p>
+                <p class="mt-10 text-xl"><span class="font-bold">Tools :</span> CodeIgniter, MySQL & Bootstrap</p>
+                <p class="mb-5 text-xl"><span class="font-bold">Design by :</span> Saugi & BootstrapMade</p>
               </div>
               <div class="w-full hidden md:block md:mt-24">
-                <img src="img/projects/project1.jpg" alt="Project Image" class="rounded-lg shadow-lg">
+                <img src="img/projects/hamka.png" alt="Project Image" class="rounded-lg shadow-lg">
               </div>
             </div>
             <div class="pt-16 pb-10 md:flex">
               <div class="w-full font-viga text-black md:pr-5">
-                <h3 class="text-2xl md:text-3xl mb-4">Project Name</h3>
-                <img src="img/projects/project1.jpg" alt="Project 1" class="rounded-lg shadow-lg md:hidden">
-                <p class="font-inter text-xl mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus placeat sapiente consectetur accusantium magnam similique quod corrupti sit modi tempora omnis eaque molestias magni, atque saepe. Placeat sed explicabo fugiat numquam fugit nesciunt harum eveniet repellat nisi, quia aliquid dolore!</p>
-                <p class="mt-10 text-xl"><span class="font-bold">Tools :</span> HTML, CSS & Javascript</p>
-                <p class="mb-5 text-xl"><span class="font-bold">Design by :</span> Me</p>
-                <a href="#" class="px-2 py-1 mr-3 text-lg bg-white ring-2 ring-black rounded-lg hover:bg-black hover:text-white transition ">Visit</a>
-                <a href="#" class="px-2 py-1 bg-black text-lg text-white ring-2 ring-black rounded-lg hover:bg-white hover:text-black transition">Source Code</a>
+                <h3 class="text-2xl md:text-3xl mb-4">Skytrans</h3>
+                <img src="img/projects/skytrans.png" alt="Project 1" class="rounded-lg shadow-lg md:hidden">
+                <p class="font-inter text-xl mt-5">SkyTrans is a web application designed to efficiently manage material shipment data. It allows users to track, record, and organize shipment details, including material information, shipment status, and final destination. With integrated features, SkyTrans helps companies or organizations ensure that the shipping process runs smoothly, is well-organized, and properly documented, minimizing errors and enhancing efficiency in logistics management.</p>
+                <p class="mt-10 text-xl"><span class="font-bold">Tools :</span> Laravel, MySQL & Bootstrap</p>
+                <p class="mb-5 text-xl"><span class="font-bold">Design by :</span> Albion & Me</p>
+                <a href="https://github.com/maakmall/skytrans" class="px-2 py-1 bg-black text-lg text-white ring-2 ring-black rounded-lg hover:bg-white hover:text-black transition">Source Code</a>
               </div>
               <div class="w-full hidden md:block md:mt-6">
-                <img src="img/projects/project1.jpg" alt="Project Image" class="rounded-lg shadow-lg">
+                <img src="img/projects/skytrans.png" alt="Project Image" class="rounded-lg shadow-lg">
               </div>
             </div>`,
   contact: `<div class="pt-16 md:pt-20 md:flex">
@@ -96,7 +95,7 @@ const view = {
               </div>
               <div class="w-full flex justify-evenly md:flex-col md:pl-10 lg:pl-20 xl:pl-32 md:border-l-4 md:border-black font-viga">
                 <a href="mailto:makmal316@gmail.com" class="text-2xl lg:text-3xl text-black hover:opacity-70 transition" target="_blank"><i class="bi bi-envelope"></i> <span class="hidden md:inline ml-3">makmal316@gmail.com</span></a>
-                <a href="https://www.instagram.com/maakmall" class="text-2xl lg:text-3xl text-black hover:opacity-70 transition" target="_blank"><i class="bi bi-instagram"></i> <span class="hidden md:inline ml-3">@maakmall</span></a>
+                <a href="https://www.instagram.com/maakmall" class="text-2xl lg:text-3xl text-black hover:opacity-70 transition" target="_blank"><i class="bi bi-instagram"></i> <span class="hidden md:inline ml-3">maakmall</span></a>
                 <a href="https://www.facebook.com/maakmall" class="text-2xl lg:text-3xl text-black hover:opacity-70 transition" target="_blank"><i class="bi bi-facebook"></i> <span class="hidden md:inline ml-3">maakmall</span></a>
                 <a href="https://www.github.com/maakmall" class="text-2xl lg:text-3xl text-black hover:opacity-70 transition" target="_blank"><i class="bi bi-github"></i> <span class="hidden md:inline ml-3">maakmall</span></a>
               </div>
